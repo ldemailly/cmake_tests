@@ -1,0 +1,9 @@
+#pragma once
+
+#define TEST1_VERSION_STR @TEST1_VERSION_MAJOR@
+
+#cmakedefine HAS_POSIX_FALLOCATE 1
+#cmakedefine HAS_SYNC_FILE_RANGE 1
+#cmakedefine HAS_POSIX_MEMALIGN 1
+#cmakedefine HAS_OPEN 1
+#cmakedefine HAS_SETSOCKOPT 1
